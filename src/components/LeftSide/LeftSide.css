@@ -1,0 +1,17 @@
+.leftside {
+  width: 20%;
+  height: 90vh;
+  background-color: rgb(39, 39, 39);
+}
+
+.leftside-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(197, 197, 197);
+  padding: 20px;
+}
+
+.leftside-item {
+  color: rgb(197, 197, 197);
+}

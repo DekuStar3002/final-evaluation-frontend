@@ -1,0 +1,42 @@
+.contenttypesbar {
+  width: 20%;
+  height: 90vh;
+  background-color: rgb(212, 214, 224);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.contenttypebar-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contenttypesbar button {
+  height: 50px;
+  width: 80%;
+  border: 2px dotted rgb(79, 33, 198);
+  border-radius: 10px;
+  color: rgb(79, 33, 198);
+  font-size: large;
+  cursor: pointer;
+}
+
+.contenttypebar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 20px;
+  background-color: white;
+  height: 50px;
+  width: 230px;
+  color: grey;
+  border-radius: 10px;
+  cursor: pointer;
+}

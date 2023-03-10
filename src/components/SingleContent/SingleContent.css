@@ -1,0 +1,36 @@
+.singleContent {
+  width: 60%;
+  height: 90vh;
+  background-color: rgb(235, 238, 253); 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.singleContent button {
+  width: 500px;
+  height: 60px;
+  border: 2px dotted rgb(60, 50, 205);
+  background-color: white;
+  font-size: large;
+  color: rgb(60, 50, 205);
+  border-radius: 10px;
+}
+
+.singleContent-subheading {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  font-size: x-large;
+  margin: 10px 0;
+}
+
+.singleContent-header {
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
